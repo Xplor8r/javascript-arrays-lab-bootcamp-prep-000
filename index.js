@@ -13,18 +13,14 @@ function destructivelyRemoveLastKitten(Kittens) {
 function destructivelyRemoveFirstKitten(Kittens) {
   return kittens.shift();
 }
-function prependKitten(name) {
-  var newArray = kittens = [name,...kittens];
-  return newArray;
+function appendKitten(name){
+  return [...kittens, name]
 }
-function addElementToBeginningOfArray(chocolateBars, foo) {
-  var newArray = chocolateBars = ["foo",...chocolateBars];
-  return newArray;
+
+function prependKitten(name){
+  return [name, ...kittens]
 }
-function appendKitten(kittens) {
-  var newArray = kittens = [...kittens, "Broom"];
-  return newArray;
-}
+
 function removeLastKitten(Kitten) {
   var newArray = kittens.slice(0, kittens.length - 1);
   return newArray;
