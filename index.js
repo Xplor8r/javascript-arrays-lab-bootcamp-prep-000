@@ -12,12 +12,12 @@ function destructivelyRemoveLastKitten(Kittens) {
 function destructivelyRemoveFirstKitten(Kittens) {
   return kittens.shift();
 }
-function appendKitten(kitten) {
+function prependKitten(kitten) {
   var newArray = kittens.push(kitten);
   return newArray;
 }
-function prependKitten(Arnold) {
-  var newArray = kittens = [...kittens, 'Arnold'];
+function appendKitten(Broom) {
+  var newArray = kittens = [...kittens, 'Broom'];
   return newArray;
 }
 function removeLastKitten(Kitten) {
