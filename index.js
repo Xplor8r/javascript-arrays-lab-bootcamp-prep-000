@@ -20,7 +20,7 @@ function prependKitten(kitten) {
   var newArray = kittens.unshift(kitten);
   return newArray;
 }
-function removeLastKitten(kittens) {
-  var newArray = kittens.slice(0, kittens - 2);
+function removeElementFromEndOfArray(chocolateBars) {
+  var newArray = chocolateBars.slice(0, chocolateBars.length - 1);
   return newArray;
 }
