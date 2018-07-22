@@ -16,7 +16,7 @@ function prependKitten(kittens, Arnold) {
   var newArray = kittens = ["Arnold",...kittens];
   return newArray;
 }
-var kittens =
+var kittens = ["Milo", "Otis", "Garfield"]
 function appendKitten(kittens, Broom) {
   var newArray = kittens = [...kittens, "Broom"];
   return newArray;
