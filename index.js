@@ -13,8 +13,8 @@ function destructivelyRemoveLastKitten(Kittens) {
 function destructivelyRemoveFirstKitten(Kittens) {
   return kittens.shift();
 }
-function prependKitten(kittens, Arnold) {
-  var newArray = kittens = ["Arnold",...kittens];
+function prependKitten(name) {
+  var newArray = kittens = [name,...kittens];
   return newArray;
 }
 function addElementToBeginningOfArray(chocolateBars, foo) {
