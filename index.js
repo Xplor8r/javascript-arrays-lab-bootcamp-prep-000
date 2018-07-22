@@ -12,8 +12,8 @@ function destructivelyRemoveLastKitten(Kittens) {
 function destructivelyRemoveFirstKitten(Kittens) {
   return kittens.shift();
 }
-function prependKitten(Arnold) {
-  var newArray = kittens = ["Arnold", ...kittens]
+function prependKitten(kittens, Arnold) {
+  var newArray = kittens = ["Arnold", ...kittens];
   return newArray;
 }
 function appendKitten(kittens, Broom) {
