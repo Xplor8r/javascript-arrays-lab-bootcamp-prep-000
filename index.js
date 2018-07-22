@@ -16,6 +16,10 @@ function prependKitten(kittens, Arnold) {
   var newArray = kittens = ["Arnold",...kittens];
   return newArray;
 }
+function addElementToBeginningOfArray(chocolateBars, foo) {
+  var newArray = chocolateBars = ["foo",...chocolateBars];
+  return newArray;
+}
 function appendKitten(kittens) {
   var newArray = kittens = [...kittens, "Broom"];
   return newArray;
